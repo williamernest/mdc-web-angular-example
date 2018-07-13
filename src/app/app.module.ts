@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CustomTopAppBarComponent } from './custom-top-app-bar/custom-top-app-bar.component';
+import { CustomButtonComponent } from './custom-button/custom-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomTopAppBarComponent
+    CustomTopAppBarComponent,
+    CustomButtonComponent
   ],
   imports: [
     BrowserModule

@@ -20,6 +20,8 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+    "@material/button": "^0.37.0",
+    "@material/ripple": "^0.37.0",
     "@material/top-app-bar": "^0.37.0",
     "core-js": "^2.5.4",
     "normalize": "^0.3.1",
