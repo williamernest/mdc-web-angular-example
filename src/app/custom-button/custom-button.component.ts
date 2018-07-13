@@ -13,7 +13,7 @@ export class CustomButtonComponent implements AfterViewInit, OnDestroy {
   constructor(public myElement: ElementRef) { }
 
   ngAfterViewInit() {
-    this.ripple = new MDCRipple(this.myElement.nativeElement);
+    this.ripple = new MDCRipple(this.myElement.nativeElement.querySelector('.mdc-button'));
   }
 
   ngOnDestroy() {

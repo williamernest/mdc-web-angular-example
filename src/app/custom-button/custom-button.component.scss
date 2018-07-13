@@ -1,2 +1,6 @@
 @import "@material/ripple/mdc-ripple";
 @import "@material/button/mdc-button";
+
+.my-button {
+  @include mdc-button-container-fill-color(blue);
+}
